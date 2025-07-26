@@ -30,4 +30,12 @@ This is a **real-time chat application** built using **Node.js**, **Express.js**
 ---
 
 ## 📁 Project Structure
-
+project/
+├── public/ # Static frontend files
+│ ├── index.html # UI markup
+│ ├── style.css # Stylesheet
+│ └── app.js # Client-side socket logic
+├── images/ # UI images like avatars
+├── index.js # Express & Socket.io backend
+├── package.json # Project metadata & dependencies
+└── README.md # Project documentation
