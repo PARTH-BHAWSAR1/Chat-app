@@ -6,7 +6,7 @@ This is a **real-time chat application** built using **Node.js**, **Express.js**
 
 ## 📸 Preview
 
-![Chat UI Preview](images/chat-preview.png)  
+![Chat UI Preview]
 *Minimal chat UI with real-time messaging*
 
 ---
