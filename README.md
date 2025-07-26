@@ -4,13 +4,6 @@ This is a **real-time chat application** built using **Node.js**, **Express.js**
 
 ---
 
-## 📸 Preview
-
-![Chat UI Preview]
-*Minimal chat UI with real-time messaging*
-
----
-
 ## 🚀 Features
 
 - ⚡ Real-time messaging via WebSockets
@@ -23,19 +16,33 @@ This is a **real-time chat application** built using **Node.js**, **Express.js**
 
 ## 🛠️ Tech Stack
 
-| Frontend      | Backend     | Real-Time Engine |
-| ------------- | ----------- | ---------------- |
-| HTML, CSS, JS | Node.js, Express.js | Socket.io        |
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Express.js
+- **WebSockets**: Socket.io
 
 ---
 
 ## 📁 Project Structure
-project/
-├── public/ # Static frontend files
-│ ├── index.html # UI markup
-│ ├── style.css # Stylesheet
-│ └── app.js # Client-side socket logic
-├── images/ # UI images like avatars
-├── index.js # Express & Socket.io backend
-├── package.json # Project metadata & dependencies
-└── README.md # Project documentation
+
+**`/public/`** - Contains all static frontend files  
+  ├── `index.html` – Main UI layout  
+  ├── `style.css` – Styling for the app  
+  └── `app.js` – Client-side socket logic
+
+**`/images/`** – Images for avatars/UI enhancements (optional)
+
+**`index.js`** – Backend server with Express & Socket.io setup
+
+**`package.json`** – Project configuration and dependencies
+
+**`README.md`** – Project documentation (this file)
+
+---
+
+## ⚙️ Setup & Usage
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
