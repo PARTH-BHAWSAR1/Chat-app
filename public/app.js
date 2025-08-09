@@ -1,4 +1,4 @@
-const socket = io("https://chat-app-cntv.onrender.com")
+const socket = io()
 
 function sendMessage(e) {
     e.preventDefault()
