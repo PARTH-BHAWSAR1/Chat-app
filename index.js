@@ -15,6 +15,23 @@ app.use(express.static(path.join(__dirname, "public")))
 const expressServer = app.listen(PORT, () => {
     console.log(`listening on port ${PORT}`)
 })
+const url = `https://render-hosting-se2b.onrender.com`;
+const interval = 30000;
+
+function reloadWebsite() {
+  axios
+    .get(url)
+    .then((response) => {
+      console.log("website reloded");
+    })
+    .catch((error) => {
+      console.error(`Error : ${error.message}`);
+    });
+}
+
+setInterval(reloadWebsite, interval);
+
+
 
 const io = new Server(expressServer, {
   cors: {
