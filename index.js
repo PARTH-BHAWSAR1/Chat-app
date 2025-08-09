@@ -15,6 +15,9 @@ app.use(express.static(path.join(__dirname, "public")))
 const expressServer = app.listen(PORT, () => {
     console.log(`listening on port ${PORT}`)
 })
+
+
+///////////
 const url = `https://render-hosting-se2b.onrender.com`;
 const interval = 30000;
 
@@ -30,9 +33,7 @@ function reloadWebsite() {
 }
 
 setInterval(reloadWebsite, interval);
-
-
-
+///////////////////
 const io = new Server(expressServer, {
   cors: {
     origin: "https://chat-app-cntv.onrender.com", // allow your live site
